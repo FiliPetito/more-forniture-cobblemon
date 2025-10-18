@@ -21,7 +21,7 @@ public class ModItems {
 
         for(PokeBallVariant v : PokeBallVariant.values()) {
             Item pokeBallItem = Registry.register(
-                    Registries.ITEM, Identifier.of(MoreFornitureCobblemon.MOD_ID, v.asString()),
+                    Registries.ITEM, Identifier.of(MoreFornitureCobblemon.MOD_ID, "poke_balls/" + v.asString()),
                     new PokeBallItem(ModBlocks.POKE_BALL, new Item.Settings(), v));
 
             items.add(pokeBallItem);

@@ -27,6 +27,6 @@ public class PokeBallItem extends BlockItem {
 
     @Override
     public Text getName(ItemStack stack) {
-        return Text.translatable("item." + MoreFornitureCobblemon.MOD_ID + "." + variant.asString());
+        return Text.translatable("item." + MoreFornitureCobblemon.MOD_ID + ".poke_balls/" + variant.asString());
     }
 }
