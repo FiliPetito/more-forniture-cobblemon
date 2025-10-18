@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "variant=default,facing=north":  { "model": "more-forniture-cobblemon:block/grave" },
+    "variant=default,facing=east":   { "model": "more-forniture-cobblemon:block/grave", "y": 90 },
+    "variant=default,facing=south":  { "model": "more-forniture-cobblemon:block/grave", "y": 180 },
+    "variant=default,facing=west":   { "model": "more-forniture-cobblemon:block/grave", "y": 270 },
+
+    "variant=gray,facing=north":  { "model": "more-forniture-cobblemon:block/grave_gray" },
+    "variant=gray,facing=east":   { "model": "more-forniture-cobblemon:block/grave_gray", "y": 90 },
+    "variant=gray,facing=south":  { "model": "more-forniture-cobblemon:block/grave_gray", "y": 180 },
+    "variant=gray,facing=west":   { "model": "more-forniture-cobblemon:block/grave_gray", "y": 270 },
+
+    "variant=mossy,facing=north":  { "model": "more-forniture-cobblemon:block/grave_mossy" },
+    "variant=mossy,facing=east":   { "model": "more-forniture-cobblemon:block/grave_mossy", "y": 90 },
+    "variant=mossy,facing=south":  { "model": "more-forniture-cobblemon:block/grave_mossy", "y": 180 },
+    "variant=mossy,facing=west":   { "model": "more-forniture-cobblemon:block/grave_mossy", "y": 270 },
+
+    "variant=cobblestone,facing=north":  { "model": "more-forniture-cobblemon:block/grave_cobblestone" },
+    "variant=cobblestone,facing=east":   { "model": "more-forniture-cobblemon:block/grave_cobblestone", "y": 90 },
+    "variant=cobblestone,facing=south":  { "model": "more-forniture-cobblemon:block/grave_cobblestone", "y": 180 },
+    "variant=cobblestone,facing=west":   { "model": "more-forniture-cobblemon:block/grave_cobblestone", "y": 270 },
+
+    "variant=stone,facing=north":  { "model": "more-forniture-cobblemon:block/grave_stone" },
+    "variant=stone,facing=east":   { "model": "more-forniture-cobblemon:block/grave_stone", "y": 90 },
+    "variant=stone,facing=south":  { "model": "more-forniture-cobblemon:block/grave_stone", "y": 180 },
+    "variant=stone,facing=west":   { "model": "more-forniture-cobblemon:block/grave_stone", "y": 270 }
+  }
+}

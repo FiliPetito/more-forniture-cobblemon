@@ -5,11 +5,11 @@
 	"name": "More Forniture Cobblemon",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Filippo Petito"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/FiliPetito/more-forniture-cobblemon"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/more-forniture-cobblemon/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"it.fpetito.moreforniturecobblemon.MoreFornitureCobblemonDataGenerator"
+		],
+		"client" : [
+			"it.fpetito.moreforniturecobblemon.MoreFornitureCobblemonClient"
 		]
 	},
 	"mixins": [
