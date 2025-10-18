@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "variant=poke_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/poke_ball"},
+    "variant=poke_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/poke_ball","y": 90},
+    "variant=poke_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/poke_ball","y": 180},
+    "variant=poke_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/poke_ball","y": 270},
+
+    "variant=slate_ball,facing=north": {
+      "model": "more-forniture-cobblemon:block/poke_balls/slate_ball"
+    },
+    "variant=slate_ball,facing=east": {
+      "model": "more-forniture-cobblemon:block/poke_balls/slate_ball",
+      "y": 90
+    },
+    "variant=slate_ball,facing=south": {
+      "model": "more-forniture-cobblemon:block/poke_balls/slate_ball",
+      "y": 180
+    },
+    "variant=slate_ball,facing=west": {
+      "model": "more-forniture-cobblemon:block/poke_balls/slate_ball",
+      "y": 270
+    },
+
+    "variant=azure_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/azure_ball"},
+    "variant=azure_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/azure_ball","y": 90},
+    "variant=azure_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/azure_ball","y": 180},
+    "variant=azure_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/azure_ball","y": 270}
+  }
+}

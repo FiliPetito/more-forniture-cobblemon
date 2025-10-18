@@ -22,6 +22,8 @@ public class MoreFornitureCobblemon implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerVariantBlockItemGrave();
+		//ModBlocks.registerVariantBlockItemBall();
+
 
 		LOGGER.info("[{}] - Initialization ended", MOD_ID);
 	}

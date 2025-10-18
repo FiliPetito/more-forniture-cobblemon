@@ -1,0 +1,89 @@
+{
+	"texture_size": [64, 32],
+	"textures": {
+		"layer0": "more-forniture-cobblemon:block/poke_balls/poke_ball",
+		"particle": "more-forniture-cobblemon:block/poke_balls/poke_ball",
+		"all": "more-forniture-cobblemon:block/poke_balls/poke_ball"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
+			"faces": {
+				"north": {"uv": [10, 4, 12, 6], "texture": "#layer0"},
+				"east": {"uv": [8, 4, 10, 6], "texture": "#layer0"},
+				"south": {"uv": [14, 4, 16, 6], "texture": "#layer0"},
+				"west": {"uv": [12, 4, 14, 6], "texture": "#layer0"},
+				"up": {"uv": [12, 4, 10, 0], "texture": "#layer0"},
+				"down": {"uv": [14, 0, 12, 4], "texture": "#layer0"}
+			}
+		},
+		{
+			"from": [4, 4, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [2, 4, 4, 6], "texture": "#layer0"},
+				"east": {"uv": [0, 4, 2, 6], "texture": "#layer0"},
+				"south": {"uv": [6, 4, 8, 6], "texture": "#layer0"},
+				"west": {"uv": [4, 4, 6, 6], "texture": "#layer0"},
+				"up": {"uv": [4, 4, 2, 0], "texture": "#layer0"},
+				"down": {"uv": [6, 0, 4, 4], "texture": "#layer0"}
+			}
+		},
+		{
+			"from": [6.9995, 2.9995, 3.9995],
+			"to": [9.0005, 5.0005, 4.0005],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 3, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#layer0"},
+				"east": {"uv": [0, 0, 0, 1], "texture": "#layer0"},
+				"south": {"uv": [0.5, 0, 1, 1], "texture": "#layer0"},
+				"west": {"uv": [0.5, 0, 0.5, 1], "texture": "#layer0"},
+				"up": {"uv": [0.5, 0, 0, 0], "texture": "#layer0"},
+				"down": {"uv": [1, 0, 0.5, 0], "texture": "#layer0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 37, 0],
+			"translation": [6, 1, -0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 37, 0],
+			"translation": [-0.25, 1, 4.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 124, 0],
+			"translation": [16, 0, -22.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 124, 0],
+			"translation": [25, 0, -9.25]
+		},
+		"ground": {
+			"translation": [4.5, 3, 4.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"translation": [14.5, 7.5, 14.5],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"fixed": {
+			"translation": [8, 4, 8.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "pokeball",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

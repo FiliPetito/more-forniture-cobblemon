@@ -1,0 +1,58 @@
+package it.fpetito.moreforniturecobblemon.block.custom;
+
+import net.minecraft.util.StringIdentifiable;
+
+public enum PokeBallVariant implements StringIdentifiable {
+    POKE_BALL,
+    SLATE_BALL,
+    AZURE_BALL,
+//    VERDANT_BALL,
+//    ROSEATE_BALL,
+//    CITRINE_BALL,
+//    GREAT_BALL,
+//    ULTRA_BALL,
+//    MASTER_BALL,
+//    SAFARI_BALL,
+//    FAST_BALL,
+//    LEVEL_BALL,
+//    LURE_BALL,
+//    HEAVY_BALL,
+//    LOVE_BALL,
+//    FRIEND_BALL,
+//    MOON_BALL,
+//    SPORT_BALL,
+//    NET_BALL,
+//    DIVE_BALL,
+//    NEST_BALL,
+//    REPEAT_BALL,
+//    TIMER_BALL,
+//    LUXURY_BALL,
+//    PREMIER_BALL,
+//    DUSK_BALL,
+//    HEAL_BALL,
+//    QUICK_BALL,
+//    CHERISH_BALL,
+//    PARK_BALL,
+//    DREAM_BALL,
+//    BEAST_BALL,
+//    ANCIENT_POKE_BALL,
+//    ANCIENT_CITRINE_BALL,
+//    ANCIENT_VERDANT_BALL,
+//    ANCIENT_AZURE_BALL,
+//    ANCIENT_ROSEATE_BALL,
+//    ANCIENT_SLATE_BALL,
+//    ANCIENT_IVORY_BALL,
+//    ANCIENT_GREAT_BALL,
+//    ANCIENT_ULTRA_BALL,
+//    ANCIENT_HEAVY_BALL,
+//    NCIENT_LEADEN_BALL,
+//    ANCIENT_GIGATON_BALL,
+//    ANCIENT_FEATHER_BALL,
+//    ANCIENT_WING_BALL,
+//    ANCIENT_JET_BALL,
+//    ANCIENT_ORIGIN_BALL;
+    ;
+
+    @Override
+    public String asString() { return name().toLowerCase(); }
+}

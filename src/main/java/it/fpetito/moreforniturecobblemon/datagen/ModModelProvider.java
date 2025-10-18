@@ -19,6 +19,10 @@ public class ModModelProvider extends FabricModelProvider {
         MoreFornitureCobblemon.LOGGER.info("[{}] - Mod Block Model Provider initializing", MoreFornitureCobblemon.MOD_ID);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAVE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POKE_BALL);
+       //for (Block v : ModBlocks.POKE_BALL_LIST) {
+       //    blockStateModelGenerator.registerNorthDefaultHorizontalRotation(v);
+       //}
     }
 
     @Override

@@ -3,6 +3,7 @@ package it.fpetito.moreforniturecobblemon.utils;
 import it.fpetito.moreforniturecobblemon.MoreFornitureCobblemon;
 import it.fpetito.moreforniturecobblemon.block.ModBlocks;
 import it.fpetito.moreforniturecobblemon.block.custom.GraveVariant;
+import it.fpetito.moreforniturecobblemon.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -29,8 +30,18 @@ public class ModItemGroups extends ItemGroups {
                     .entries(((displayContext, entries) -> {
 
                         for (GraveVariant v : GraveVariant.values()) {
-                            String itemName = "grave_" + v.asString(); // grave_default, grave_gray...
-                            Item item = Registries.ITEM.get(Identifier.of(MoreFornitureCobblemon.MOD_ID, itemName));
+                            String itemId = "grave_" + v.asString();
+                            Item item = Registries.ITEM.get(Identifier.of(MoreFornitureCobblemon.MOD_ID, itemId));
+                            if (item != null) entries.add(item);
+                        }
+
+                        //for (PokeBallVariant v : PokeBallVariant.values()) {
+                        //    String itemId = v.asString();
+                        //    Item item = Registries.ITEM.get(Identifier.of(MoreFornitureCobblemon.MOD_ID, itemId));
+                        //    if (item != null) entries.add(item);
+                        //}
+
+                        for(Item item : ModItems.POKE_BALL_ITEM_LIST) {
                             entries.add(item);
                         }
 
