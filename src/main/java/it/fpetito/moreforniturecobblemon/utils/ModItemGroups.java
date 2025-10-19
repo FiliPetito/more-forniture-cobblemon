@@ -22,7 +22,7 @@ public class ModItemGroups extends ItemGroups {
             Identifier.of(MoreFornitureCobblemon.MOD_ID, "more-forniture-cobblemon"),
             FabricItemGroup.builder()
                     //Icona che vogliamo visualizzare nella pagina della mod
-                    .icon(() -> new ItemStack(ModBlocks.GRAVE))
+                    .icon(() -> new ItemStack(ModBlocks.POKE_BALL_STATUE))
 
                     //Nome della mod da visualizzare
                     .displayName(Text.translatable("itemgroup.more-forniture-cobblemon"))
@@ -35,16 +35,13 @@ public class ModItemGroups extends ItemGroups {
                             if (item != null) entries.add(item);
                         }
 
-                        //for (PokeBallVariant v : PokeBallVariant.values()) {
-                        //    String itemId = v.asString();
-                        //    Item item = Registries.ITEM.get(Identifier.of(MoreFornitureCobblemon.MOD_ID, itemId));
-                        //    if (item != null) entries.add(item);
-                        //}
 
                         for(Item item : ModItems.POKE_BALL_ITEM_LIST) {
                             entries.add(item);
                         }
 
+                        entries.add(ModBlocks.BASE_STATUE);
+                        entries.add(ModBlocks.POKE_BALL_STATUE);
 
                     }))
                     .build()
