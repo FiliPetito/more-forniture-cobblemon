@@ -14,8 +14,11 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.stream.Stream;
 
 public class PokeBallBlock extends HorizontalFacingBlock implements VariantHolder<PokeBallVariant> {
     public static final MapCodec<GraveBlock> CODEC = GraveBlock.createCodec(GraveBlock::new);
@@ -23,7 +26,10 @@ public class PokeBallBlock extends HorizontalFacingBlock implements VariantHolde
     public static final EnumProperty<PokeBallVariant> VARIANT = EnumProperty.of("variant", PokeBallVariant.class);
     private static PokeBallVariant BLOCK_VARIANT = PokeBallVariant.POKE_BALL;
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(3.0D, 0.0D, 3.0D, 16.0D, 12.0D, 16.0D);
+    public static final VoxelShape SHAPE = Stream.of(
+            Block.createCuboidShape(4, 0, 4, 12, 4, 12),           // down part
+            Block.createCuboidShape(4, 4, 4, 12, 8, 12)
+    ).reduce(VoxelShapes::union).get();
 
     public PokeBallBlock(Settings settings) {
         super(settings);

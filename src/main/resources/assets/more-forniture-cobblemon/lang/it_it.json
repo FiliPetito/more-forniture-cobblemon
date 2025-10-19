@@ -53,5 +53,8 @@
   "item.more-forniture-cobblemon.poke_balls/ancient_feather_ball" : "",
   "item.more-forniture-cobblemon.poke_balls/ancient_wing_ball" :"",
   "item.more-forniture-cobblemon.poke_balls/ancient_jet_ball" : "",
-  "item.more-forniture-cobblemon.poke_balls/ancient_origin_ball" :""
+  "item.more-forniture-cobblemon.poke_balls/ancient_origin_ball" :"",
+
+  "block.more-forniture-cobblemon.base_statue" : "",
+  "block.more-forniture-cobblemon.poke_ball_statue" : ""
 }
