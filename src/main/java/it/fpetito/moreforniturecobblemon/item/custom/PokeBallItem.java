@@ -22,7 +22,8 @@ public class PokeBallItem extends BlockItem {
 
     @Override
     protected @Nullable BlockState getPlacementState(ItemPlacementContext context) {
-        return getBlock().getDefaultState().with(PokeBallBlock.VARIANT, variant);
+        return getBlock().getDefaultState().with(PokeBallBlock.VARIANT, variant)
+                .with(PokeBallBlock.FACING, context.getHorizontalPlayerFacing().getOpposite());
     }
 
     @Override

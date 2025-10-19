@@ -1,0 +1,8 @@
+{
+  "parent": "more-forniture-cobblemon:block/poke_ball_model",
+  "textures": {
+    "layer0": "more-forniture-cobblemon:block/poke_balls/safari_ball",
+    "particle": "more-forniture-cobblemon:block/poke_balls/safari_ball",
+    "all": "more-forniture-cobblemon:block/poke_balls/safari_ball"
+  }
+}

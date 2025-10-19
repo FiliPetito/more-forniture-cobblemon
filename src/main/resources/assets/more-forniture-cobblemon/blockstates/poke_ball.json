@@ -43,7 +43,201 @@
     "variant=master_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/master_ball"},
     "variant=master_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/master_ball","y": 90},
     "variant=master_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/master_ball","y": 180},
-    "variant=master_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/master_ball","y": 270}
+    "variant=master_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/master_ball","y": 270},
 
+    "variant=safari_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/safari_ball"},
+    "variant=safari_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/safari_ball","y": 90},
+    "variant=safari_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/safari_ball","y": 180},
+    "variant=safari_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/safari_ball","y": 270},
+
+    "variant=fast_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/fast_ball"},
+    "variant=fast_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/fast_ball","y": 90},
+    "variant=fast_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/fast_ball","y": 180},
+    "variant=fast_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/fast_ball","y": 270},
+
+    "variant=level_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/level_ball"},
+    "variant=level_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/level_ball","y": 90},
+    "variant=level_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/level_ball","y": 180},
+    "variant=level_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/level_ball","y": 270},
+
+    "variant=lure_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/lure_ball"},
+    "variant=lure_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/lure_ball","y": 90},
+    "variant=lure_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/lure_ball","y": 180},
+    "variant=lure_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/lure_ball","y": 270},
+
+    "variant=heavy_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/heavy_ball"},
+    "variant=heavy_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/heavy_ball","y": 90},
+    "variant=heavy_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/heavy_ball","y": 180},
+    "variant=heavy_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/heavy_ball","y": 270},
+
+    "variant=love_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/love_ball"},
+    "variant=love_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/love_ball","y": 90},
+    "variant=love_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/love_ball","y": 180},
+    "variant=love_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/love_ball","y": 270},
+
+    "variant=friend_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/friend_ball"},
+    "variant=friend_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/friend_ball","y": 90},
+    "variant=friend_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/friend_ball","y": 180},
+    "variant=friend_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/friend_ball","y": 270},
+
+    "variant=moon_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/moon_ball"},
+    "variant=moon_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/moon_ball","y": 90},
+    "variant=moon_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/moon_ball","y": 180},
+    "variant=moon_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/moon_ball","y": 270},
+
+    "variant=sport_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/sport_ball"},
+    "variant=sport_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/sport_ball","y": 90},
+    "variant=sport_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/sport_ball","y": 180},
+    "variant=sport_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/sport_ball","y": 270},
+
+    "variant=net_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/net_ball"},
+    "variant=net_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/net_ball","y": 90},
+    "variant=net_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/net_ball","y": 180},
+    "variant=net_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/net_ball","y": 270},
+
+    "variant=dive_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/dive_ball"},
+    "variant=dive_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/dive_ball","y": 90},
+    "variant=dive_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/dive_ball","y": 180},
+    "variant=dive_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/dive_ball","y": 270},
+
+    "variant=nest_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/nest_ball"},
+    "variant=nest_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/nest_ball","y": 90},
+    "variant=nest_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/nest_ball","y": 180},
+    "variant=nest_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/nest_ball","y": 270},
+
+    "variant=repeat_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/repeat_ball"},
+    "variant=repeat_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/repeat_ball","y": 90},
+    "variant=repeat_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/repeat_ball","y": 180},
+    "variant=repeat_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/repeat_ball","y": 270},
+
+    "variant=timer_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/timer_ball"},
+    "variant=timer_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/timer_ball","y": 90},
+    "variant=timer_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/timer_ball","y": 180},
+    "variant=timer_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/timer_ball","y": 270},
+
+    "variant=luxury_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/luxury_ball"},
+    "variant=luxury_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/luxury_ball","y": 90},
+    "variant=luxury_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/luxury_ball","y": 180},
+    "variant=luxury_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/luxury_ball","y": 270},
+
+    "variant=premier_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/premier_ball"},
+    "variant=premier_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/premier_ball","y": 90},
+    "variant=premier_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/premier_ball","y": 180},
+    "variant=premier_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/premier_ball","y": 270},
+
+    "variant=dusk_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/dusk_ball"},
+    "variant=dusk_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/dusk_ball","y": 90},
+    "variant=dusk_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/dusk_ball","y": 180},
+    "variant=dusk_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/dusk_ball","y": 270},
+
+    "variant=heal_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/heal_ball"},
+    "variant=heal_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/heal_ball","y": 90},
+    "variant=heal_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/heal_ball","y": 180},
+    "variant=heal_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/heal_ball","y": 270},
+
+    "variant=quick_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/quick_ball"},
+    "variant=quick_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/quick_ball","y": 90},
+    "variant=quick_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/quick_ball","y": 180},
+    "variant=quick_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/quick_ball","y": 270},
+
+    "variant=cherish_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/cherish_ball"},
+    "variant=cherish_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/cherish_ball","y": 90},
+    "variant=cherish_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/cherish_ball","y": 180},
+    "variant=cherish_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/cherish_ball","y": 270},
+
+    "variant=park_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/park_ball"},
+    "variant=park_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/park_ball","y": 90},
+    "variant=park_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/park_ball","y": 180},
+    "variant=park_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/park_ball","y": 270},
+
+    "variant=dream_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/dream_ball"},
+    "variant=dream_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/dream_ball","y": 90},
+    "variant=dream_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/dream_ball","y": 180},
+    "variant=dream_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/dream_ball","y": 270},
+
+    "variant=beast_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/beast_ball"},
+    "variant=beast_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/beast_ball","y": 90},
+    "variant=beast_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/beast_ball","y": 180},
+    "variant=beast_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/beast_ball","y": 270},
+
+    "variant=ancient_poke_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_poke_ball"},
+    "variant=ancient_poke_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_poke_ball","y": 90},
+    "variant=ancient_poke_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_poke_ball","y": 180},
+    "variant=ancient_poke_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_poke_ball","y": 270},
+
+    "variant=ancient_citrine_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_citrine_ball"},
+    "variant=ancient_citrine_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_citrine_ball","y": 90},
+    "variant=ancient_citrine_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_citrine_ball","y": 180},
+    "variant=ancient_citrine_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_citrine_ball","y": 270},
+
+    "variant=ancient_verdant_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_verdant_ball"},
+    "variant=ancient_verdant_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_verdant_ball","y": 90},
+    "variant=ancient_verdant_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_verdant_ball","y": 180},
+    "variant=ancient_verdant_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_verdant_ball","y": 270},
+
+    "variant=ancient_azure_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_azure_ball"},
+    "variant=ancient_azure_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_azure_ball","y": 90},
+    "variant=ancient_azure_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_azure_ball","y": 180},
+    "variant=ancient_azure_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_azure_ball","y": 270},
+
+    "variant=ancient_roseate_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_roseate_ball"},
+    "variant=ancient_roseate_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_roseate_ball","y": 90},
+    "variant=ancient_roseate_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_roseate_ball","y": 180},
+    "variant=ancient_roseate_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_roseate_ball","y": 270},
+
+    "variant=ancient_slate_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_slate_ball"},
+    "variant=ancient_slate_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_slate_ball","y": 90},
+    "variant=ancient_slate_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_slate_ball","y": 180},
+    "variant=ancient_slate_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_slate_ball","y": 270},
+
+    "variant=ancient_ivory_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_ivory_ball"},
+    "variant=ancient_ivory_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_ivory_ball","y": 90},
+    "variant=ancient_ivory_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_ivory_ball","y": 180},
+    "variant=ancient_ivory_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_ivory_ball","y": 270},
+
+    "variant=ancient_great_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_great_ball"},
+    "variant=ancient_great_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_great_ball","y": 90},
+    "variant=ancient_great_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_great_ball","y": 180},
+    "variant=ancient_great_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_great_ball","y": 270},
+
+    "variant=ancient_ultra_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_ultra_ball"},
+    "variant=ancient_ultra_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_ultra_ball","y": 90},
+    "variant=ancient_ultra_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_ultra_ball","y": 180},
+    "variant=ancient_ultra_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_ultra_ball","y": 270},
+
+    "variant=ancient_heavy_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_heavy_ball"},
+    "variant=ancient_heavy_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_heavy_ball","y": 90},
+    "variant=ancient_heavy_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_heavy_ball","y": 180},
+    "variant=ancient_heavy_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_heavy_ball","y": 270},
+
+    "variant=ancient_leaden_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_leaden_ball"},
+    "variant=ancient_leaden_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_leaden_ball","y": 90},
+    "variant=ancient_leaden_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_leaden_ball","y": 180},
+    "variant=ancient_leaden_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_leaden_ball","y": 270},
+
+    "variant=ancient_gigaton_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_gigaton_ball"},
+    "variant=ancient_gigaton_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_gigaton_ball","y": 90},
+    "variant=ancient_gigaton_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_gigaton_ball","y": 180},
+    "variant=ancient_gigaton_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_gigaton_ball","y": 270},
+
+    "variant=ancient_feather_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_feather_ball"},
+    "variant=ancient_feather_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_feather_ball","y": 90},
+    "variant=ancient_feather_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_feather_ball","y": 180},
+    "variant=ancient_feather_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_feather_ball","y": 270},
+
+    "variant=ancient_wing_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_wing_ball"},
+    "variant=ancient_wing_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_wing_ball","y": 90},
+    "variant=ancient_wing_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_wing_ball","y": 180},
+    "variant=ancient_wing_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_wing_ball","y": 270},
+
+    "variant=ancient_jet_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_jet_ball"},
+    "variant=ancient_jet_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_jet_ball","y": 90},
+    "variant=ancient_jet_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_jet_ball","y": 180},
+    "variant=ancient_jet_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_jet_ball","y": 270},
+
+    "variant=ancient_origin_ball,facing=north": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_origin_ball"},
+    "variant=ancient_origin_ball,facing=east": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_origin_ball","y": 90},
+    "variant=ancient_origin_ball,facing=south": { "model": "more-forniture-cobblemon:block/poke_balls/ancient_origin_ball","y": 180},
+    "variant=ancient_origin_ball,facing=west": {"model": "more-forniture-cobblemon:block/poke_balls/ancient_origin_ball","y": 270}
   }
 }

@@ -81,4 +81,5 @@ public class GraveBlock extends HorizontalFacingBlock implements VariantHolder<G
         // Restituisce la variante basata sullo stato del blocco, NON una variabile statica
         return getDefaultState().get(VARIANT);
     }
+
 }

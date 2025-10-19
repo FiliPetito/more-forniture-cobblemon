@@ -1,9 +1,7 @@
 package it.fpetito.moreforniturecobblemon.block;
 
 import it.fpetito.moreforniturecobblemon.MoreFornitureCobblemon;
-import it.fpetito.moreforniturecobblemon.block.custom.GraveBlock;
-import it.fpetito.moreforniturecobblemon.block.custom.GraveVariant;
-import it.fpetito.moreforniturecobblemon.block.custom.PokeBallBlock;
+import it.fpetito.moreforniturecobblemon.block.custom.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,17 +12,17 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block BASE_STATUE = registerBlock("base_statue",
-            new it.fpetito.moreforniturecobblemon.block.custom.BaseStatue(Block.Settings.create().nonOpaque()), false);
+            new BaseStatue(Block.Settings.create().nonOpaque()), false);
 
     public static final Block POKE_BALL_STATUE = registerBlock("poke_ball_statue",
-            new it.fpetito.moreforniturecobblemon.block.custom.PokeBallStatue(Block.Settings.create().nonOpaque()), false);
-
+            new PokeBallStatue(Block.Settings.create().nonOpaque()), false);
 
     public static final Block GRAVE = registerBlock("grave",
             new GraveBlock(Block.Settings.create().nonOpaque()), true);
 
     public static final Block POKE_BALL = registerBlock("poke_ball",
             new PokeBallBlock(Block.Settings.create().nonOpaque()), true);
+
 
     private static Block registerBlock(String name, Block block, boolean hasVariants) {
         if (!hasVariants) registerBlockItem(name, block);

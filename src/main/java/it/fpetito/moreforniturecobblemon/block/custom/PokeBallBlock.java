@@ -21,10 +21,9 @@ import org.jetbrains.annotations.Nullable;
 import java.util.stream.Stream;
 
 public class PokeBallBlock extends HorizontalFacingBlock implements VariantHolder<PokeBallVariant> {
-    public static final MapCodec<GraveBlock> CODEC = GraveBlock.createCodec(GraveBlock::new);
+    public static final MapCodec<PokeBallBlock> CODEC = PokeBallBlock.createCodec(PokeBallBlock::new);
 
     public static final EnumProperty<PokeBallVariant> VARIANT = EnumProperty.of("variant", PokeBallVariant.class);
-    private static PokeBallVariant BLOCK_VARIANT = PokeBallVariant.POKE_BALL;
 
     public static final VoxelShape SHAPE = Stream.of(
             Block.createCuboidShape(4, 0, 4, 12, 4, 12),           // down part
@@ -61,8 +60,6 @@ public class PokeBallBlock extends HorizontalFacingBlock implements VariantHolde
             }
         }
 
-        BLOCK_VARIANT = variant;
-
         return this.getDefaultState()
                 .with(FACING, ctx.getHorizontalPlayerFacing().getOpposite())
                 .with(VARIANT, variant);
@@ -80,12 +77,13 @@ public class PokeBallBlock extends HorizontalFacingBlock implements VariantHolde
 
     @Override
     public void setVariant(PokeBallVariant variant) {
-        BLOCK_VARIANT = variant;
+        // Non serve qui, la variante è gestita dallo stato del blocco
     }
 
     @Override
     public PokeBallVariant getVariant() {
-        return BLOCK_VARIANT;
+        // Restituisce la variante basata sullo stato del blocco, NON una variabile statica
+        return getDefaultState().get(VARIANT);
     }
 
 }
