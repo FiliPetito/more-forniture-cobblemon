@@ -1,8 +1,10 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"texture_size": [64, 32],
 	"textures": {
-		"layer0": "more-forniture-cobblemon:block/poke_balls/poke_ball",
 		"particle": "more-forniture-cobblemon:block/poke_balls/poke_ball",
+		"layer0": "more-forniture-cobblemon:block/poke_balls/poke_ball",
 		"all": "more-forniture-cobblemon:block/poke_balls/poke_ball"
 	},
 	"elements": [
@@ -50,32 +52,40 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 37, 0],
-			"translation": [6, 1, -0.25],
+			"translation": [-0.25, 1, -1.5],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 37, 0],
-			"translation": [-0.25, 1, 4.5],
+			"translation": [0.25, 1, -1],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 124, 0],
-			"translation": [16, 0, -22.5]
+			"translation": [7, 0, -7.25]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 124, 0],
-			"translation": [25, 0, -9.25]
+			"translation": [10, 0, -9.25]
 		},
 		"ground": {
 			"translation": [4.5, 3, 4.5],
 			"scale": [0.6, 0.6, 0.6]
 		},
+		"gui": {
+			"rotation": [0, 145, 0],
+			"translation": [0, 3.75, 0]
+		},
 		"head": {
-			"translation": [14.5, 7.5, 14.5],
+			"translation": [0.25, 7.5, 0.25],
 			"scale": [1.8, 1.8, 1.8]
 		},
 		"fixed": {
-			"translation": [8, 4, 8.5]
+			"translation": [0.25, 4.25, 2.25]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3, 0]
 		}
 	},
 	"groups": [
