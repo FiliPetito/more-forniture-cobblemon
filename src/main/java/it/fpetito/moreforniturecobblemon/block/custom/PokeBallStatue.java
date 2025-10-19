@@ -20,11 +20,11 @@ public class PokeBallStatue extends HorizontalFacingBlock {
     public static final MapCodec<PokeBallStatue> CODEC = PokeBallStatue.createCodec(PokeBallStatue::new);
 
     public static final VoxelShape SHAPE = Stream.of(
-            Block.createCuboidShape(0, 16, 0, 16, 24, 16),         // Base superiore
-            Block.createCuboidShape(0, 0, 0, 16, 3, 16),           // Base inferiore
-            Block.createCuboidShape(1, 3, 1, 15, 16, 15),          // Corpo centrale
-            Block.createCuboidShape(4, 24, 4, 12, 28, 12),         // Poké Ball parte inferiore
-            Block.createCuboidShape(4, 28, 4, 12, 32, 12)
+            Block.createCuboidShape(0, 16, 0, 16, 24, 16),         // Base up
+            Block.createCuboidShape(0, 0, 0, 16, 3, 16),           // Base down
+            Block.createCuboidShape(1, 3, 1, 15, 16, 15),          // central body
+            Block.createCuboidShape(4, 24, 4, 12, 28, 12),         // Poké Ball down part
+            Block.createCuboidShape(4, 28, 4, 12, 32, 12)          // Poké Ball up part
     ).reduce(VoxelShapes::union).get();
 
     public PokeBallStatue(Settings settings) {

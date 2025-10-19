@@ -22,7 +22,7 @@ public class BaseStatue extends HorizontalFacingBlock {
     private static final VoxelShape SHAPE = Stream.of(
             Block.createCuboidShape(0, 24, 0, 16, 32, 16),   // Top pillar
             Block.createCuboidShape(0, 0, 0, 16, 3, 16),     // Base pillar
-            Block.createCuboidShape(1, 3, 1, 15, 24, 15)
+            Block.createCuboidShape(1, 3, 1, 15, 24, 15)     // Main body
     ).reduce(VoxelShapes::union).get();
 
     public BaseStatue(Settings settings) {
