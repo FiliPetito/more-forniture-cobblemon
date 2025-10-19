@@ -39,6 +39,9 @@ public class ModItemGroups extends ItemGroups {
                         for(Item item : ModItems.POKE_BALL_ITEM_LIST) {
                             entries.add(item);
                         }
+                        for(Item item : ModItems.ELEMENTAL_ENERGY_ITEM_LIST) {
+                            entries.add(item);
+                        }
 
                         entries.add(ModBlocks.BASE_STATUE);
                         entries.add(ModBlocks.POKE_BALL_STATUE);

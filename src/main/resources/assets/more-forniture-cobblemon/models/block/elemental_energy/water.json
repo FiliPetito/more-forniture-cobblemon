@@ -1,0 +1,8 @@
+{
+  "parent": "more-forniture-cobblemon:block/elemental_energy_block_model",
+  "textures": {
+    "layer0": "more-forniture-cobblemon:block/elemental_energy/water",
+    "particle": "more-forniture-cobblemon:block/elemental_energy/water",
+    "all": "more-forniture-cobblemon:block/elemental_energy/water"
+  }
+}

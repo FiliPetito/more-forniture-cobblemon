@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "variant=fire,facing=north": {"model": "more-forniture-cobblemon:block/elemental_energy/fire"},
+    "variant=fire,facing=east": {"model": "more-forniture-cobblemon:block/elemental_energy/fire","y": 90},
+    "variant=fire,facing=south": { "model": "more-forniture-cobblemon:block/elemental_energy/fire","y": 180},
+    "variant=fire,facing=west": {"model": "more-forniture-cobblemon:block/elemental_energy/fire","y": 270},
+
+    "variant=water,facing=north": {"model": "more-forniture-cobblemon:block/elemental_energy/water"},
+    "variant=water,facing=east": {"model": "more-forniture-cobblemon:block/elemental_energy/water","y": 90},
+    "variant=water,facing=south": { "model": "more-forniture-cobblemon:block/elemental_energy/water","y": 180},
+    "variant=water,facing=west": {"model": "more-forniture-cobblemon:block/elemental_energy/water","y": 270},
+
+    "variant=electric,facing=north": {"model": "more-forniture-cobblemon:block/elemental_energy/electric"},
+    "variant=electric,facing=east": {"model": "more-forniture-cobblemon:block/elemental_energy/electric","y": 90},
+    "variant=electric,facing=south": { "model": "more-forniture-cobblemon:block/elemental_energy/electric","y": 180},
+    "variant=electric,facing=west": {"model": "more-forniture-cobblemon:block/elemental_energy/electric","y": 270}
+  }
+}

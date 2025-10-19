@@ -23,6 +23,9 @@ public class ModBlocks {
     public static final Block POKE_BALL = registerBlock("poke_ball",
             new PokeBallBlock(Block.Settings.create().nonOpaque()), true);
 
+    public static final Block ELEMENTAL_ENERGY = registerBlock("elemental_energy",
+            new ElementalEnergyBlock(Block.Settings.create().nonOpaque()), true);
+
 
     private static Block registerBlock(String name, Block block, boolean hasVariants) {
         if (!hasVariants) registerBlockItem(name, block);
@@ -42,6 +45,8 @@ public class ModBlocks {
                     new BlockItem(GRAVE, new Item.Settings()));
         }
     }
+
+
 
     public static void registerModBlocks() {
         MoreFornitureCobblemon.LOGGER.info("[{}] - Registering ModBlocks.", MoreFornitureCobblemon.MOD_ID);
