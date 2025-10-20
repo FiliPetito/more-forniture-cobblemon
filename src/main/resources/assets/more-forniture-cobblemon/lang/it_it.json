@@ -39,6 +39,14 @@
   "item.more-forniture-cobblemon.poke_balls/dream_ball": "Sogno Ball",
   "item.more-forniture-cobblemon.poke_balls/beast_ball": "Bestia Ball",
 
+  "item.more-forniture-cobblemon.elemental_energy/fire": "Fuoco",
+  "item.more-forniture-cobblemon.elemental_energy/electric": "Elettrico",
+  "item.more-forniture-cobblemon.elemental_energy/water": "Acqua",
+
+  "item.more-forniture-cobblemon.fire_sphere" : "Sfera di fuoco",
+  "item.more-forniture-cobblemon.electric_sphere" : "Sfera Elettrica",
+  "item.more-forniture-cobblemon.water_sphere" : "Sfera d'Acqua",
+
   "block.more-forniture-cobblemon.base_statue": "Statua Base",
   "block.more-forniture-cobblemon.poke_ball_statue": "Statua Poké Ball"
 }

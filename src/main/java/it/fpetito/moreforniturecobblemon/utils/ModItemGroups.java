@@ -46,6 +46,10 @@ public class ModItemGroups extends ItemGroups {
                         entries.add(ModBlocks.BASE_STATUE);
                         entries.add(ModBlocks.POKE_BALL_STATUE);
 
+                        entries.add(ModItems.ELECTRIC_SPHERE);
+                        entries.add(ModItems.FIRE_SPHERE);
+                        entries.add(ModItems.WATER_SPHERE);
+
                     }))
                     .build()
     );

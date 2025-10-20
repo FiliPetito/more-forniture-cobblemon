@@ -19,6 +19,15 @@ public class ModItems {
     public static final List<Item> POKE_BALL_ITEM_LIST = registeryPokeBallItemList();
     public static final List<Item> ELEMENTAL_ENERGY_ITEM_LIST = registeryElementalEnergyItemList();
 
+    public static final Item ELECTRIC_SPHERE = registerItem("electric_sphere",
+            new Item(new Item.Settings()));
+
+    public static final Item FIRE_SPHERE = registerItem("fire_sphere",
+            new Item(new Item.Settings()));
+
+    public static final Item WATER_SPHERE = registerItem("water_sphere",
+            new Item(new Item.Settings()));
+
     private static List<Item> registeryPokeBallItemList() {
         List<Item> items = new ArrayList<>();
 

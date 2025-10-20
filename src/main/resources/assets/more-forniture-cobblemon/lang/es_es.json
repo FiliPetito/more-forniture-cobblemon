@@ -55,6 +55,14 @@
   "item.more-forniture-cobblemon.poke_balls/ancient_jet_ball": "Jetbola Antigua",
   "item.more-forniture-cobblemon.poke_balls/ancient_origin_ball": "Orígenbola Antigua",
 
+  "item.more-forniture-cobblemon.elemental_energy/fire": "Fuego",
+  "item.more-forniture-cobblemon.elemental_energy/electric": "Eléctrico",
+  "item.more-forniture-cobblemon.elemental_energy/water": "Agua",
+
+  "item.more-forniture-cobblemon.fire_sphere" : "Esfera de Fuego",
+  "item.more-forniture-cobblemon.electric_sphere" : "Esfera Eléctrica",
+  "item.more-forniture-cobblemon.water_sphere" : "Esfera de Agua",
+
   "block.more-forniture-cobblemon.base_statue": "Estatua Base",
   "block.more-forniture-cobblemon.poke_ball_statue": "Estatua Pokébola"
 

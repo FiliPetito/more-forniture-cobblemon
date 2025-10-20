@@ -55,6 +55,14 @@
   "item.more-forniture-cobblemon.poke_balls/ancient_jet_ball": "Antike Jetball",
   "item.more-forniture-cobblemon.poke_balls/ancient_origin_ball": "Antike Ursprungsball",
 
+  "item.more-forniture-cobblemon.elemental_energy/fire": "Feuer",
+  "item.more-forniture-cobblemon.elemental_energy/electric": "Elektrisch",
+  "item.more-forniture-cobblemon.elemental_energy/water": "Wasser",
+
+  "item.more-forniture-cobblemon.fire_sphere" : "Feuerkugel",
+  "item.more-forniture-cobblemon.electric_sphere" : "Elektrische Kugel",
+  "item.more-forniture-cobblemon.water_sphere" : "Wasserkugel",
+
   "block.more-forniture-cobblemon.base_statue": "Basisstatue",
   "block.more-forniture-cobblemon.poke_ball_statue": "Pokéballstatue"
 }
