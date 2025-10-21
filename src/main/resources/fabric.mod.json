@@ -29,7 +29,7 @@
 		"more-forniture-cobblemon.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.3",
+		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
