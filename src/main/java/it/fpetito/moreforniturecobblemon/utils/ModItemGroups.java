@@ -49,6 +49,11 @@ public class ModItemGroups extends ItemGroups {
                         entries.add(ModItems.ELECTRIC_SPHERE);
                         entries.add(ModItems.FIRE_SPHERE);
                         entries.add(ModItems.WATER_SPHERE);
+                        entries.add(ModBlocks.SLOT_MACHINE);
+
+                        entries.add(ModBlocks.BASE_INCUBATOR_MEWTWO);
+                        entries.add(ModBlocks.SMALL_BASE_INCUBATOR);
+                        entries.add(ModBlocks.TOP_INCUBATOR_MEWTWO);
 
                     }))
                     .build()

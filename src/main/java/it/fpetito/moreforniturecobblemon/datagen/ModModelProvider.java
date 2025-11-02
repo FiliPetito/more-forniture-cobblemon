@@ -24,7 +24,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BASE_STATUE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POKE_BALL_STATUE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SLOT_MACHINE);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BASE_INCUBATOR_MEWTWO);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_BASE_INCUBATOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOP_INCUBATOR_MEWTWO);
     }
 
     @Override

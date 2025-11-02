@@ -64,5 +64,6 @@
   "item.more-forniture-cobblemon.water_sphere" : "Wasserkugel",
 
   "block.more-forniture-cobblemon.base_statue": "Basisstatue",
-  "block.more-forniture-cobblemon.poke_ball_statue": "Pokéballstatue"
+  "block.more-forniture-cobblemon.poke_ball_statue": "Pokéballstatue",
+  "block.more-forniture-cobblemon.slot_machine" : "Slot Machine"
 }

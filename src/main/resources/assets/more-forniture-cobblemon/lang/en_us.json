@@ -66,5 +66,10 @@
 
 
   "block.more-forniture-cobblemon.base_statue" : "Base State",
-  "block.more-forniture-cobblemon.poke_ball_statue" : "Poke Ball Statue"
+  "block.more-forniture-cobblemon.poke_ball_statue" : "Poke Ball Statue",
+  "block.more-forniture-cobblemon.slot_machine" : "Slot Machine",
+
+  "block.more-forniture-cobblemon.top_incubator_mewtw0" : "Top MewTwo Incubator",
+  "block.more-forniture-cobblemon.base_small_incubator" : "Small Base Incubator",
+  "block.more-forniture-cobblemon.base_incubator_mewtwo" : "Base MewTwo Incubator"
 }

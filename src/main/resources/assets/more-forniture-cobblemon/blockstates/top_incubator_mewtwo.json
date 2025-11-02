@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": {"model": "more-forniture-cobblemon:block/top_incubator_mewtwo"},
+		"facing=east": {"model": "more-forniture-cobblemon:block/top_incubator_mewtwo","y": 90},
+		"facing=south": { "model": "more-forniture-cobblemon:block/top_incubator_mewtwo","y": 180},
+		"facing=west": {"model": "more-forniture-cobblemon:block/top_incubator_mewtwo","y": 270}
+	}
+}
